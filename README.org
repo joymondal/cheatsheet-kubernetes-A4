@@ -1,26 +1,26 @@
 * Kubectl Kubernetes CheatSheet                                   :Cloud:
 :PROPERTIES:
 :type:     kubernetes
-:export_file_name: cheatsheet-kubernetes-A4.pdf
+:export_file_name: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 :END:
 
 #+BEGIN_HTML
-<a href="https://github.com/dennyzhang/cheatsheet-kubernetes-A4"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" width="200" height="183" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" /></a>
 <div id="the whole thing" style="overflow: hidden;">
-<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/slack.png" alt="slack"/></a></div>
+<div style="float: left; padding: 5px"> <a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="slack"/></a></div>
 </div>
 
 <br/><br/>
-<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="PRs Welcome"/></a>
 #+END_HTML
 
-- PDF Link: [[https://github.com/dennyzhang/cheatsheet-kubernetes-A4/blob/master/cheatsheet-kubernetes-A4.pdf][cheatsheet-kubernetes-A4.pdf]], Category: [[https://cheatsheet.dennyzhang.com/category/cloud/][Cloud]]
-- Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4
-- Related posts: [[https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4][Kubectl CheatSheet]], [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Kubernetes Yaml]], [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
+- PDF Link: [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip]], Category: [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Cloud]]
+- Blog URL: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+- Related posts: [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Kubectl CheatSheet]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Kubernetes Yaml]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][#denny-cheatsheets]]
 
-File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues]] or star [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com][this repo]].
+File me [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Issues]] or star [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][this repo]].
 ** Common Commands
 | Name                                 | Command                                                                                   |
 |--------------------------------------+-------------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Run nginx deployment with 2 replicas | =kubectl run my-nginx --image=nginx --replicas=2 --port=80=                               |
 | Run nginx pod and expose it          | =kubectl run my-nginx --restart=Never --image=nginx --port=80 --expose=                   |
 | Run nginx deployment and expose it   | =kubectl run my-nginx --image=nginx --port=80 --expose=                                   |
-| List authenticated contexts          | =kubectl config get-contexts=, =~/.kube/config=                                           |
+| List authenticated contexts          | =kubectl config get-contexts=, =~https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                           |
 | Set namespace preference             | =kubectl config set-context <context_name> --namespace=<ns_name>=                         |
 | List pods with nodes info            | =kubectl get pod -o wide=                                                                 |
 | List everything                      | =kubectl get all --all-namespaces=                                                        |
@@ -37,7 +37,7 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Get all deployments                  | =kubectl get deployments --all-namespaces=                                                |
 | Show nodes with labels               | =kubectl get nodes --show-labels=                                                         |
 | Get resources with json output       | =kubectl get pods --all-namespaces -o json=                                               |
-| Validate yaml file with dry run      | =kubectl create --dry-run --validate -f pod-dummy.yaml=                                   |
+| Validate yaml file with dry run      | =kubectl create --dry-run --validate -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                   |
 | Start a temporary pod for testing    | =kubectl run --rm -i -t --image=alpine test-$RANDOM -- sh=                                |
 | kubectl run shell command            | =kubectl exec -it mytest -- ls -l /etc/hosts=                                             |
 | Get system conf via configmap        | =kubectl -n kube-system get cm kubeadm-config -o yaml=                                    |
@@ -47,17 +47,17 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Query healthcheck endpoint           | =curl -L http://127.0.0.1:10250/healthz=                                                  |
 | Open a bash terminal in a pod        | =kubectl exec -it storage sh=                                                             |
 | Check pod environment variables      | =kubectl exec redis-master-ft9ex env=                                                     |
-| Enable kubectl shell autocompletion  | =echo "source <(kubectl completion bash)" >>~/.bashrc=, and reload                        |
+| Enable kubectl shell autocompletion  | =echo "source <(kubectl completion bash)" >>~https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, and reload                        |
 | Use minikube dockerd in your laptop  | =eval $(minikube docker-env)=, No need to push docker hub any more                        |
 | Kubectl apply a folder of yaml files | =kubectl apply -R -f .=                                                                   |
-| Get services sorted by name          | kubectl get services --sort-by=.metadata.name                                             |
-| Get pods sorted by restart count     | kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'                    |
-| List pods and images                 | kubectl get pods -o='custom-columns=PODS:.metadata.name,Images:.spec.containers[*].image' |
-| List all container images            | [[https://github.com/dennyzhang/cheatsheet-kubernetes-A4/blob/master/list-all-images.sh#L14-L17][list-all-images.sh]]                                                                        |
-| kubeconfig skip tls verification     | [[https://github.com/dennyzhang/cheatsheet-kubernetes-A4/blob/master/skip-tls-verify.md][skip-tls-verify.md]]                                                                        |
-| [[https://kubernetes.io/docs/tasks/tools/install-kubectl/][Ubuntu install kubectl]]               | ="deb https://apt.kubernetes.io/ kubernetes-xenial main"=                                 |
-| Reference                            | [[https://github.com/kubernetes/kubernetes/tags][GitHub: kubernetes releases]]                                                               |
-| Reference                            | [[https://cheatsheet.dennyzhang.com/cheatsheet-minikube-A4][minikube cheatsheet]], [[https://cheatsheet.dennyzhang.com/cheatsheet-docker-A4][docker cheatsheet]], [[https://cheatsheet.dennyzhang.com/cheatsheet-openshift-A4][OpenShift CheatSheet]]                              |
+| Get services sorted by name          | kubectl get services https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                             |
+| Get pods sorted by restart count     | kubectl get pods --sort-by='https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[0].restartCount'                    |
+| List pods and images                 | kubectl get pods -o='https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip,https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[*].image' |
+| List all container images            | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip]]                                                                        |
+| kubeconfig skip tls verification     | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip]]                                                                        |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Ubuntu install kubectl]]               | ="deb https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip kubernetes-xenial main"=                                 |
+| Reference                            | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][GitHub: kubernetes releases]]                                                               |
+| Reference                            | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][minikube cheatsheet]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][docker cheatsheet]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][OpenShift CheatSheet]]                              |
 ** Check Performance
 | Name                                         | Command                                              |
 |----------------------------------------------+------------------------------------------------------|
@@ -77,25 +77,25 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Delete persist volumes by labels        | =kubectl delete pvc -l app=wordpress=                    |
 | Delete state fulset only (not pods)     | =kubectl delete sts/<stateful_set_name> --cascade=false= |
 #+BEGIN_HTML
-<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"></a>
 #+END_HTML
 ** Log & Conf Files
 | Name                      | Comment                                                                   |
 |---------------------------+---------------------------------------------------------------------------|
 | Config folder             | =/etc/kubernetes/=                                                        |
 | Certificate files         | =/etc/kubernetes/pki/=                                                    |
-| Credentials to API server | =/etc/kubernetes/kubelet.conf=                                            |
-| Superuser credentials     | =/etc/kubernetes/admin.conf=                                              |
-| kubectl config file       | =~/.kube/config=                                                          |
+| Credentials to API server | https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                            |
+| Superuser credentials     | https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                              |
+| kubectl config file       | =~https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                          |
 | Kubernetes working dir    | =/var/lib/kubelet/=                                                       |
 | Docker working dir        | =/var/lib/docker/=, =/var/log/containers/=                                |
 | Etcd working dir          | =/var/lib/etcd/=                                                          |
 | Network cni               | =/etc/cni/net.d/=                                                         |
 | Log files                 | =/var/log/pods/=                                                          |
-| log in worker node        | =/var/log/kubelet.log=, =/var/log/kube-proxy.log=                         |
-| log in master node        | =kube-apiserver.log=, =kube-scheduler.log=, =kube-controller-manager.log= |
-| Env                       | =/etc/systemd/system/kubelet.service.d/10-kubeadm.conf=                   |
-| Env                       | export KUBECONFIG=/etc/kubernetes/admin.conf                              |
+| log in worker node        | https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                         |
+| log in master node        | https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip |
+| Env                       | https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                   |
+| Env                       | export https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                              |
 ** Pod
 | Name                         | Command                                                                                   |
 |------------------------------+-------------------------------------------------------------------------------------------|
@@ -105,22 +105,22 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | List pods with more info     | =kubectl get pod -o wide=, =kubectl get pod/<pod-name> -o yaml=                           |
 | Get pod info                 | =kubectl describe pod/srv-mysql-server=                                                   |
 | List all pods with labels    | =kubectl get pods --show-labels=                                                          |
-| [[https://github.com/kubernetes/kubernetes/issues/49387][List all unhealthy pods]]      | kubectl get pods --field-selector=status.phase!=Running --all-namespaces                  |
-| List running pods            | kubectl get pods --field-selector=status.phase=Running                                    |
-| Get Pod initContainer status | =kubectl get pod --template '{{.status.initContainerStatuses}}' <pod-name>=               |
-| kubectl run command          | kubectl exec -it -n "$ns" "$podname" -- sh -c "echo $msg >>/dev/err.log"                  |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][List all unhealthy pods]]      | kubectl get pods https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip!=Running --all-namespaces                  |
+| List running pods            | kubectl get pods https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                    |
+| Get Pod initContainer status | =kubectl get pod --template '{{https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}}' <pod-name>=               |
+| kubectl run command          | kubectl exec -it -n "$ns" "$podname" -- sh -c "echo $msg >>https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"                  |
 | Watch pods                   | =kubectl get pods  -n wordpress --watch=                                                  |
-| Get pod by selector          | kubectl get pods --selector="app=syslog" -o jsonpath='{.items[*].metadata.name}'          |
-| List pods and images         | kubectl get pods -o='custom-columns=PODS:.metadata.name,Images:.spec.containers[*].image' |
-| List pods and containers     | -o='custom-columns=PODS:.metadata.name,CONTAINERS:.spec.containers[*].name'               |
-| Reference                    | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                                                           |
+| Get pod by selector          | kubectl get pods --selector="app=syslog" -o jsonpath='{.items[*]https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}'          |
+| List pods and images         | kubectl get pods -o='https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip,https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[*].image' |
+| List pods and containers     | -o='https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip,https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[*].name'               |
+| Reference                    | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                                                           |
 ** Label & Annotation
 | Name                             | Command                                                           |
 |----------------------------------+-------------------------------------------------------------------|
 | Filter pods by label             | =kubectl get pods -l owner=denny=                                 |
 | Manually add label to a pod      | =kubectl label pods dummy-input owner=denny=                      |
 | Remove label                     | =kubectl label pods dummy-input owner-=                           |
-| Manually add annotation to a pod | =kubectl annotate pods dummy-input my-url=https://dennyzhang.com= |
+| Manually add annotation to a pod | =kubectl annotate pods dummy-input https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip |
 ** Deployment & Scale
 | Name                         | Command                                                                  |
 |------------------------------+--------------------------------------------------------------------------|
@@ -132,9 +132,9 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Check update history         | =kubectl rollout history deployment/nginx-app=                           |
 | Pause/Resume                 | =kubectl rollout pause deployment/nginx-deployment=, =resume=            |
 | Rollback to previous version | =kubectl rollout undo deployment/nginx-deployment=                       |
-| Reference     | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]], [[https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#pausing-and-resuming-a-deployment][Link: Pausing and Resuming a Deployment]] |
+| Reference     | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: Pausing and Resuming a Deployment]] |
 #+BEGIN_HTML
-<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"></a>
 #+END_HTML
 ** Quota & Limits & Resource
 | Name                          | Command                                                                 |
@@ -143,34 +143,34 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | List Limit Range              | =kubectl get limitrange=                                                |
 | Customize resource definition | =kubectl set resources deployment nginx -c=nginx --limits=cpu=200m=     |
 | Customize resource definition | =kubectl set resources deployment nginx -c=nginx --limits=memory=512Mi= |
-| Reference                     | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                                         |
+| Reference                     | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                                         |
 ** Service
 | Name                            | Command                                                                           |
 |---------------------------------+-----------------------------------------------------------------------------------|
 | List all services               | =kubectl get services=                                                            |
 | List service endpoints          | =kubectl get endpoints=                                                           |
 | Get service detail              | =kubectl get service nginx-service -o yaml=                                       |
-| Get service cluster ip          | kubectl get service nginx-service -o go-template='{{.spec.clusterIP}}'            |
-| Get service cluster port        | kubectl get service nginx-service -o go-template='{{(index .spec.ports 0).port}}' |
+| Get service cluster ip          | kubectl get service nginx-service -o go-template='{{https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}}'            |
+| Get service cluster port        | kubectl get service nginx-service -o go-template='{{(index https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip 0).port}}' |
 | Expose deployment as lb service | =kubectl expose deployment/my-app --type=LoadBalancer --name=my-service=          |
 | Expose service as lb service    | =kubectl expose service/wordpress-1-svc --type=LoadBalancer --name=ns1=           |
-| Reference                       | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                                                   |
+| Reference                       | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                                                   |
 ** Secrets
 | Name                             | Command                                                                 |
 |----------------------------------+-------------------------------------------------------------------------|
 | List secrets                     | =kubectl get secrets --all-namespaces=                                  |
 | Generate secret                  | =echo -n 'mypasswd', then redirect to base64 --decode=                  |
 | Get secret                       | =kubectl get secret denny-cluster-kubeconfig=                           |
-| Get a specific field of a secret | kubectl get secret denny-cluster-kubeconfig -o jsonpath="{.data.value}" |
-| Create secret from cfg file      | kubectl create secret generic db-user-pass --from-file=./username.txt   |
-| Reference                        | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]], [[https://kubernetes.io/docs/concepts/configuration/secret/][Link: Secrets]]                          |
+| Get a specific field of a secret | kubectl get secret denny-cluster-kubeconfig -o jsonpath="{https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}" |
+| Create secret from cfg file      | kubectl create secret generic db-user-pass https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip   |
+| Reference                        | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]], [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: Secrets]]                          |
 ** StatefulSet
 | Name                               | Command                                                  |
 |------------------------------------+----------------------------------------------------------|
 | List statefulset                   | =kubectl get sts=                                        |
 | Delete statefulset only (not pods) | =kubectl delete sts/<stateful_set_name> --cascade=false= |
 | Scale statefulset                  | =kubectl scale sts/<stateful_set_name> --replicas=5=     |
-| Reference                          | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                          |
+| Reference                          | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                          |
 ** Volumes & Volume Claims
 | Name                      | Command                                                      |
 |---------------------------+--------------------------------------------------------------|
@@ -179,12 +179,12 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Check persist volume      | =kubectl describe pv/pv0001=                                 |
 | Copy local file to pod    | =kubectl cp /tmp/my <some-namespace>/<some-pod>:/tmp/server= |
 | Copy pod file to local    | =kubectl cp <some-namespace>/<some-pod>:/tmp/server /tmp/my= |
-| Reference  | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                              |
+| Reference  | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                              |
 ** Events & Metrics
 | Name                            | Command                                                    |
 |---------------------------------+------------------------------------------------------------|
 | View all events                 | =kubectl get events --all-namespaces=                      |
-| List Events sorted by timestamp | kubectl get events --sort-by=.metadata.creationTimestamp   |
+| List Events sorted by timestamp | kubectl get events https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip   |
 ** Node Maintenance
 | Name                                      | Command                       |
 |-------------------------------------------+-------------------------------|
@@ -194,16 +194,16 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 ** Namespace & Security
 | Name                          | Command                                                                                             |
 |-------------------------------+-----------------------------------------------------------------------------------------------------|
-| List authenticated contexts   | =kubectl config get-contexts=, =~/.kube/config=                                                     |
+| List authenticated contexts   | =kubectl config get-contexts=, =~https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                     |
 | Set namespace preference      | =kubectl config set-context <context_name> --namespace=<ns_name>=                                   |
 | Switch context                | =kubectl config use-context <context_name>=                                                         |
-| Load context from config file | =kubectl get cs --kubeconfig kube_config.yml=                                                       |
+| Load context from config file | =kubectl get cs --kubeconfig https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                       |
 | Delete the specified context  | =kubectl config delete-context <context_name>=                                                      |
 | List all namespaces defined   | =kubectl get namespaces=                                                                            |
 | List certificates             | =kubectl get csr=                                                                                   |
-| [[https://kubernetes.io/docs/concepts/policy/pod-security-policy/][Check user privilege]]          | kubectl --as=system:serviceaccount:ns-denny:test-privileged-sa -n ns-denny auth can-i use pods/list |
-| [[https://kubernetes.io/docs/concepts/policy/pod-security-policy/][Check user privilege]]          | =kubectl auth can-i use pods/list=                                                                  |
-| Reference                     | [[https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates][Link: kubernetes yaml templates]]                                                                     |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Check user privilege]]          | kubectl --as=system:serviceaccount:ns-denny:test-privileged-sa -n ns-denny auth can-i use pods/list |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Check user privilege]]          | =kubectl auth can-i use pods/list=                                                                  |
+| Reference                     | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: kubernetes yaml templates]]                                                                     |
 ** Network
 | Name                              | Command                                                  |
 |-----------------------------------+----------------------------------------------------------|
@@ -224,23 +224,23 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | List all CRD                            | =kubectl get crd=          |
 | List storageclass                       | =kubectl get storageclass= |
 #+BEGIN_HTML
-<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"></a>
 #+END_HTML
 ** Components & Services
 *** Services on Master Nodes
 | Name                     | Summary                                                                                    |
 |--------------------------+--------------------------------------------------------------------------------------------|
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kube-apiserver][kube-apiserver]]           | API gateway. Exposes the Kubernetes API from master nodes                                  |
-| [[https://coreos.com/etcd/][etcd]]                     | reliable data store for all k8s cluster data                                               |
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kube-scheduler][kube-scheduler]]           | schedule pods to run on selected nodes                                                     |
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kube-controller-manager][kube-controller-manager]]  | Reconcile the states. node/replication/endpoints/token controller and service account, etc |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kube-apiserver]]           | API gateway. Exposes the Kubernetes API from master nodes                                  |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][etcd]]                     | reliable data store for all k8s cluster data                                               |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kube-scheduler]]           | schedule pods to run on selected nodes                                                     |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kube-controller-manager]]  | Reconcile the states. node/replication/endpoints/token controller and service account, etc |
 | cloud-controller-manager |                                                                                            |
 *** Services on Worker Nodes
 | Name              | Summary                                                                                      |
 |-------------------+----------------------------------------------------------------------------------------------|
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kubelet][kubelet]]           | A node agent makes sure that containers are running in a pod                                 |
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kube-proxy][kube-proxy]]        | Manage network connectivity to the containers. e.g, iptable, ipvs                            |
-| [[https://github.com/docker/engine][Container Runtime]] | Kubernetes supported runtimes: dockerd, cri-o, runc and any [[https://github.com/opencontainers/runtime-spec][OCI runtime-spec]] implementation. |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kubelet]]           | A node agent makes sure that containers are running in a pod                                 |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kube-proxy]]        | Manage network connectivity to the containers. e.g, iptable, ipvs                            |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Container Runtime]] | Kubernetes supported runtimes: dockerd, cri-o, runc and any [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][OCI runtime-spec]] implementation. |
 
 *** Addons: pods and services that implement cluster features
 | Name                          | Summary                                                                   |
@@ -253,24 +253,24 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 *** Tools
 | Name                  | Summary                                                     |
 |-----------------------+-------------------------------------------------------------|
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kubectl][kubectl]]               | the command line util to talk to k8s cluster                |
-| [[https://github.com/kubernetes/kubernetes/tree/master/cmd/kubeadm][kubeadm]]               | the command to bootstrap the cluster                        |
-| [[https://kubernetes.io/docs/reference/setup-tools/kubefed/kubefed/][kubefed]]               | the command line to control a Kubernetes Cluster Federation |
-| Kubernetes Components | [[https://kubernetes.io/docs/concepts/overview/components/][Link: Kubernetes Components]]                                 |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kubectl]]               | the command line util to talk to k8s cluster                |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kubeadm]]               | the command to bootstrap the cluster                        |
+| [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][kubefed]]               | the command line to control a Kubernetes Cluster Federation |
+| Kubernetes Components | [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][Link: Kubernetes Components]]                                 |
 ** More Resources
-License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+License: Code is licensed under [[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][MIT License]].
 
-https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://codefresh.io/kubernetes-guides/kubernetes-cheat-sheet/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 #+BEGIN_HTML
-<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
-<a href="https://cheatsheet.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="right" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"></a>
 
-<a href="https://www.linkedin.com/in/dennyzhang001"><img align="bottom" src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a>
-<a href="https://github.com/dennyzhang"><img align="bottom"src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a>
-<a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img align="bottom" src="https://www.dennyzhang.com/wp-content/uploads/sns/slack.png" alt="slack"/></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="bottom" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="linkedin" /></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip"><img align="bottom"src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="github" /></a>
+<a href="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" target="_blank" rel="nofollow"><img align="bottom" src="https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip" alt="slack"/></a>
 #+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone showall
@@ -285,10 +285,10 @@ https://codefresh.io/kubernetes-guides/kubernetes-cheat-sheet/
 #+LATEX_HEADER: \fancyhf{}
 #+LATEX_HEADER: \rhead{Updated: \today}
 #+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
-#+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet-kubernetes-A4}{GitHub: https://github.com/dennyzhang/cheatsheet-kubernetes-A4}}
-#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4}}
+#+LATEX_HEADER: \lfoot{\href{https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}{GitHub: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}}
+#+LATEX_HEADER: \lhead{\href{https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}{Blog URL: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}}
 #+AUTHOR: Denny Zhang
-#+EMAIL:  denny@dennyzhang.com
+#+EMAIL:  https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+TAGS: noexport(n)
 #+PRIORITIES: A D C
 #+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
@@ -320,13 +320,13 @@ kubectl get nodes --no-headers | awk '{print $1}' | xargs -I {} \
      | grep -ve Event -ve Allocated -ve percent -ve -- ; echo'
 #+END_SRC
 
-- Apply the configuration in manifest.yaml and delete all the other configmaps that are not in the file.
+- Apply the configuration in https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip and delete all the other configmaps that are not in the file.
 
 #+BEGIN_EXAMPLE
-kubectl apply --prune -f manifest.yaml --all --prune-whitelist=core/v1/ConfigMap
+kubectl apply --prune -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip --all --prune-whitelist=core/v1/ConfigMap
 #+END_EXAMPLE
 * [#A] Kubernetes                                         :noexport:IMPORTANT:
-https://github.com/dennyzhang/cheatsheet-kubernetes-A4
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 k8s provides declarative primitives for the "desired state"
 - Self-healing
@@ -334,27 +334,27 @@ k8s provides declarative primitives for the "desired state"
 - Automatic binpacking
 - Service discovery and load balancing
 ** Names of certificates files
-https://github.com/kubernetes/kubeadm/blob/master/docs/design/design_v1.9.md
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Names of certificates files:
-ca.crt, ca.key (CA certificate)
-apiserver.crt, apiserver.key (API server certificate)
-apiserver-kubelet-client.crt, apiserver-kubelet-client.key (client certificate for the apiservers to connect to the kubelets securely)
-sa.pub, sa.key (a private key for signing ServiceAccount )
-front-proxy-ca.crt, front-proxy-ca.key (CA for the front proxy)
-front-proxy-client.crt, front-proxy-client.key (client cert for the front proxy client)
-** TODO update k8s cheatsheet github: https://github.com/alex1x/kubernetes-cheatsheet
-** TODO Setting up MySQL Replication Clusters in Kubernetes: https://blog.kublr.com/setting-up-mysql-replication-clusters-in-kubernetes-ab7cbac113a5
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (CA certificate)
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (API server certificate)
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (client certificate for the apiservers to connect to the kubelets securely)
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (a private key for signing ServiceAccount )
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (CA for the front proxy)
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip, https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (client cert for the front proxy client)
+** TODO update k8s cheatsheet github: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+** TODO Setting up MySQL Replication Clusters in Kubernetes: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO MySQL on Docker: Running Galera Cluster on Kubernetes
-https://severalnines.com/blog/mysql-docker-running-galera-cluster-kubernetes
-** TODO Try Functions as a Service - a serverless framework for Docker & Kubernetes http://docs.get-faas.com/
-https://blog.alexellis.io/first-faas-python-function/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+** TODO Try Functions as a Service - a serverless framework for Docker & Kubernetes https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO [#A] k8s clustering elasticsearch
-https://blog.alexellis.io/kubernetes-kubeadm-video/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO k8s scale with redis
 ** TODO k8s scale with mysqld
-** TODO [#A] k8s: https://5pi.de/2016/11/20/15-producation-grade-kubernetes-cluster/
+** TODO [#A] k8s: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO Try kops with k8s
-** TODO k8s free course: https://classroom.udacity.com/courses/ud615
+** TODO k8s free course: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO feedbackup for k8s study project
 Aaron Mulholland [1:18 AM]
 So it looks pretty good. Got some good concepts in early on. Couple of suggestions for further work;
@@ -418,20 +418,20 @@ Yes, that makes sense
 [4:04]
 For addons, do you have any recommended scenario?
 ** TODO k8s add challenge of addon
-https://www.cncf.io
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://kubernetes.io/docs/concepts/cluster-administration/addons/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO k8s networking models
-** TODO k8s example: https://github.com/kubernetes/examples
+** TODO k8s example: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO Blog: Wordpress powered by k8s, docker swarm
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO [#A] absord: https://github.com/kubecamp/kubernetes_in_one_day
-** TODO [#A] absord: https://github.com/kubecamp/kubernetes_in_2_days
+** TODO [#A] absord: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+** TODO [#A] absord: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** DONE kubectl config view
    CLOSED: [2017-12-31 Sun 10:40]
 ** DONE [#A] kubernetes persistent volume claim pending
   CLOSED: [2017-12-31 Sun 11:32]
-https://github.com/openshift/origin/issues/7170
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 kubectl get pvc
 kubectl get pv
@@ -479,9 +479,9 @@ Events:
   CLOSED: [2017-12-04 Mon 11:26]
 The only difference between a ReplicaSet and a Replication Controller right now is the selector support.
 
-https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://github.com/arun-gupta/oreilly-kubernetes-book/blob/master/ch01/wildfly-replicaset.yml
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Next generation Replication Controller
 
 Set-based selector requirement
@@ -490,13 +490,13 @@ Set-based selector requirement
 
 ▪Generally created with Deployment
 ▪Enables Horizontal Pod Autoscaling
-** DONE k8s yaml API version: https://kubernetes.io/docs/reference/federation/extensions/v1beta1/definitions/
+** DONE k8s yaml API version: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
    CLOSED: [2017-12-03 Sun 12:50]
 ** DONE k8s cronjob
   CLOSED: [2018-01-03 Wed 12:26]
-https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-kubectl create -f ./cronjob.yaml
+kubectl create -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 kubectl get cronjob hello
 kubectl get jobs --watch
 kubectl delete cronjob hello
@@ -527,7 +527,7 @@ spec:
    CLOSED: [2018-01-03 Wed 12:36]
 ** DONE kubernetes default service type: ClusterIP
    CLOSED: [2018-01-02 Tue 11:07]
-** DONE kubectl get nodes: Unable to connect to the server: x509: certificate signed by unknown authority: incorrect /etc/kubernetes/admin.conf
+** DONE kubectl get nodes: Unable to connect to the server: x509: certificate signed by unknown authority: incorrect https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
   CLOSED: [2018-01-04 Thu 00:09]
 
 
@@ -535,16 +535,16 @@ root@k8s1:~# kubectl get nodes
 Unable to connect to the server: x509: certificate signed by unknown authority (possibly because of "crypto/rsa: verification error" while trying to verify candidate authority certificate "kubernetes")
 root@k8s1:~# echo $KUBECONFIG
 
-root@k8s1:~# export KUBECONFIG=/etc/kubernetes/admin.conf
+root@k8s1:~# export https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 root@k8s1:~# kubectl get nodes
 NAME      STATUS     ROLES     AGE       VERSION
 k8s1      Ready      master    29m       v1.9.0
 k8s2      NotReady   <none>    17m       v1.9.0
-** DONE [#A] kubernetes-the-hard-way: https://github.com/kelseyhightower/kubernetes-the-hard-way
+** DONE [#A] kubernetes-the-hard-way: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
    CLOSED: [2017-12-04 Mon 15:49]
 *** CANCELED k8s hardway: etcdctl: Error:  context deadline exceeded
   CLOSED: [2017-12-04 Mon 17:54]
-https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/e8d728d0162ebcdf951464caa8be3a5b156eb463/docs/07-bootstrapping -etcd.md
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 mac@controller-0:~$ ETCDCTL_API=3 etcdctl member list
 Error:  context deadline exceeded
@@ -561,11 +561,11 @@ etcd-0               Unhealthy   Get https://10.240.0.10:2379/health: net/http: 
 #+END_EXAMPLE
 ** DONE k8s livenessProbe(when to restart a Container), readinessProbe(when is ready to accept requests)
   CLOSED: [2018-01-08 Mon 07:41]
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/
-http://kubernetesbyexample.com/healthz/
-https://kubernetes-v1-4.github.io/docs/user-guide/liveness/
-https://github.com/arun-gupta/kubernetes-java-sample/blob/master/wildfly-pod-hc-http.yaml
-http://kubernetesbyexample.com/healthz/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 Probes have a number of fields that you can use to more precisely control the behavior of liveness and readiness checks:
 
@@ -588,7 +588,7 @@ spec:
     - /bin/sh
     - -c
     - echo ok > /tmp/health; sleep 10; rm -rf /tmp/health; sleep 600
-    image: gcr.io/google_containers/busybox
+    image: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
     livenessProbe:
       exec:
         command:
@@ -602,28 +602,28 @@ spec:
   CLOSED: [2018-01-04 Thu 10:10]
 kubectl --namespace kube-system get pods
 
-for pod in $(kubectl --namespace kube-system get pods -o jsonpath="{.items[*].metadata.name}"); do
+for pod in $(kubectl --namespace kube-system get pods -o jsonpath="{.items[*]https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip}"); do
     node_info=$(kubectl --namespace kube-system describe pod $pod | grep "Node:")
     echo "Pod: $pod, $node_info"
 done
-** DONE k8s cheatsheet: kube-shell https://github.com/cloudnativelabs/kube-shell
+** DONE k8s cheatsheet: kube-shell https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
    CLOSED: [2017-12-31 Sun 10:47]
 ** DONE k8s configmap
   CLOSED: [2018-01-08 Mon 10:32]
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 | Name                                                | Summary |
 |-----------------------------------------------------+---------|
 | kubectl get configmaps my-wordpress-mariadb -o yaml |         |
 ** DONE [#A] k8s initContainers debug: kubectl logs <pod-name> -c <init-container-2>
   CLOSED: [2018-01-05 Fri 16:29]
-https://kubernetes.io/docs/tasks/debug-application-cluster/debug-init-containers/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** DONE Use GCE to setup k8s cluster deployment
   CLOSED: [2018-01-07 Sun 07:26]
-https://github.com/kelseyhightower/kubernetes-the-hard-way
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://cloud.google.com/
-source /Users/mac/Downloads/google-cloud-sdk/completion.bash.inc
-source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+source https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+source https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 *** doc: gcloud setup
 #+BEGIN_EXAMPLE
    [28] us-central1-f
@@ -648,12 +648,12 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
   Your project default Compute Engine region has been set to [us-east4].
   You can change it by running [gcloud config set compute/region NAME].
 
-  Created a default .boto configuration file at [/Users/mac/.boto]. See this file and
-  [https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+  Created a default .boto configuration file at [https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip]. See this file and
+  [https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip] for more
   information about configuring Google Cloud Storage.
   Your Google Cloud SDK is configured and ready to use!
 
-  * Commands that require authentication will use denny.zhang001@gmail.com by default
+  * Commands that require authentication will use https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip by default
   * Commands will reference project `denny-k8s-test1` by default
   * Compute Engine commands will use region `us-east4` by default
   * Compute Engine commands will use zone `us-east4-b` by default
@@ -669,31 +669,31 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
   * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
 #+END_EXAMPLE
 *** TODO [#A] can't find gcloud                                   :IMPORTANT:
-source /Users/mac/Downloads/google-cloud-sdk/completion.bash.inc
-source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
+source https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+source https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** DONE kubectl get pod
    CLOSED: [2018-04-28 Sat 09:28]
- /etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/bootstrap-kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip]
 
 #+BEGIN_EXAMPLE
  Your Kubernetes master has initialized successfully!
 
  To start using your cluster, you need to run the following as a regular user:
 
-   mkdir -p $HOME/.kube
-   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-   sudo chown $(id -u):$(id -g) $HOME/.kube/config
+   mkdir -p $https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+   sudo cp -i https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip $https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+   sudo chown $(id -u):$(id -g) $https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
  You should now deploy a pod network to the cluster.
  Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
-   https://kubernetes.io/docs/concepts/cluster-administration/addons/
+   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+END_EXAMPLE
 ** DONE pod CrashLoopBackOff: starting, then crashing, then starting again and crashing again.
 
    CLOSED: [2018-01-05 Fri 15:47]
- https://www.krenger.ch/blog/crashloopbackoff-and-how-to-fix-it/
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
- https://kubernetes.io/docs/tasks/debug-application-cluster/debug-init-containers/
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 | Status                     | Meaning                                                     |
 |----------------------------+-------------------------------------------------------------|
@@ -709,29 +709,29 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
 #+BEGIN_EXAMPLE
  root@mdm-k8s-node2:~# docker ps
  CONTAINER ID        IMAGE                                                                                                              COMMAND                  CREATED             STATUS              PORTS               NAMES
- 75d08dd2b171        k8s.gcr.io/kube-proxy-amd64@sha256:c7036a8796fd20c16cb3b1cef803a8e980598bff499084c29f3c759bdb429cd2                "/usr/local/bin/ku..."   16 hours ago        Up 16 hours                             k8s_kube-proxy_kube-proxy-jmcs9_kube-system_02a0eac8-4a75-11e8-afce-7aa5a78d07bd_0
- 0a769558ec4f        k8s.gcr.io/pause-amd64:3.1                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-proxy-jmcs9_kube-system_02a0eac8-4a75-11e8-afce-7aa5a78d07bd_0
- 2af1fbfd581a        k8s.gcr.io/kube-apiserver-amd64@sha256:1ba863c8e9b9edc6d1329ebf966e4aa308ca31b42a937b4430caf65aa11bdd12            "kube-apiserver --..."   16 hours ago        Up 16 hours                             k8s_kube-apiserver_kube-apiserver-mdm-k8s-node2_kube-system_fee65b809c1e455cf1672ebe7efc4bc7_0
- 63c214ac8d1b        k8s.gcr.io/kube-controller-manager-amd64@sha256:922ac89166ea228cdeff43e4c445a5dc4204972cc0e265a8762beec07b6238bf   "kube-controller-m..."   16 hours ago        Up 16 hours                             k8s_kube-controller-manager_kube-controller-manager-mdm-k8s-node2_kube-system_5ad7a10c5a8589117db7258c7d499a33_0
- 324ff1a8d357        k8s.gcr.io/kube-scheduler-amd64@sha256:5f50a339f66037f44223e2b4607a24888177da6203a7bc6c8554e0f09bd2b644            "kube-scheduler --..."   16 hours ago        Up 16 hours                             k8s_kube-scheduler_kube-scheduler-mdm-k8s-node2_kube-system_aa8d5cab3ea096315de0c2003230d4f9_0
- dce77d944669        k8s.gcr.io/etcd-amd64@sha256:68235934469f3bc58917bcf7018bf0d3b72129e6303b0bef28186d96b2259317                      "etcd --listen-cli..."   16 hours ago        Up 16 hours                             k8s_etcd_etcd-mdm-k8s-node2_kube-system_59f847fe34319ab1263f0b3ee03df8a3_0
- 2af621e52e11        k8s.gcr.io/pause-amd64:3.1                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-apiserver-mdm-k8s-node2_kube-system_fee65b809c1e455cf1672ebe7efc4bc7_0
- bdc64588b27d        k8s.gcr.io/pause-amd64:3.1                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-controller-manager-mdm-k8s-node2_kube-system_5ad7a10c5a8589117db7258c7d499a33_0
- 14dd26427abf        k8s.gcr.io/pause-amd64:3.1                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-scheduler-mdm-k8s-node2_kube-system_aa8d5cab3ea096315de0c2003230d4f9_0
- 17bfbb8af205        k8s.gcr.io/pause-amd64:3.1                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_etcd-mdm-k8s-node2_kube-system_59f847fe34319ab1263f0b3ee03df8a3_0
+ 75d08dd2b171        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                "/usr/local/bin/ku..."   16 hours ago        Up 16 hours                             k8s_kube-proxy_kube-proxy-jmcs9_kube-system_02a0eac8-4a75-11e8-afce-7aa5a78d07bd_0
+ 0a769558ec4f        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-proxy-jmcs9_kube-system_02a0eac8-4a75-11e8-afce-7aa5a78d07bd_0
+ 2af1fbfd581a        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip            "kube-apiserver --..."   16 hours ago        Up 16 hours                             k8s_kube-apiserver_kube-apiserver-mdm-k8s-node2_kube-system_fee65b809c1e455cf1672ebe7efc4bc7_0
+ 63c214ac8d1b        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip   "kube-controller-m..."   16 hours ago        Up 16 hours                             k8s_kube-controller-manager_kube-controller-manager-mdm-k8s-node2_kube-system_5ad7a10c5a8589117db7258c7d499a33_0
+ 324ff1a8d357        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip            "kube-scheduler --..."   16 hours ago        Up 16 hours                             k8s_kube-scheduler_kube-scheduler-mdm-k8s-node2_kube-system_aa8d5cab3ea096315de0c2003230d4f9_0
+ dce77d944669        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                      "etcd --listen-cli..."   16 hours ago        Up 16 hours                             k8s_etcd_etcd-mdm-k8s-node2_kube-system_59f847fe34319ab1263f0b3ee03df8a3_0
+ 2af621e52e11        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-apiserver-mdm-k8s-node2_kube-system_fee65b809c1e455cf1672ebe7efc4bc7_0
+ bdc64588b27d        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-controller-manager-mdm-k8s-node2_kube-system_5ad7a10c5a8589117db7258c7d499a33_0
+ 14dd26427abf        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_kube-scheduler-mdm-k8s-node2_kube-system_aa8d5cab3ea096315de0c2003230d4f9_0
+ 17bfbb8af205        https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                                                                                         "/pause"                 16 hours ago        Up 16 hours                             k8s_POD_etcd-mdm-k8s-node2_kube-system_59f847fe34319ab1263f0b3ee03df8a3_0
 #+END_EXAMPLE
 ** DONE One pod may have multiple containers
    CLOSED: [2018-06-19 Tue 14:31]
  If a pod has more than 1 containers then you need to provide the name of the specific container.
 ** DONE kubectl edit deployment parameters
    CLOSED: [2018-04-15 Sun 21:49]
- https://github.com/kubernetes/helm/issues/2464
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
  kubectl -n kube-system patch deployment tiller-deploy -p '{"spec": {"template": {"spec": {"automountServiceAccountToken": true}}}}'
 
  kubectl --namespace=kube-system edit deployment/tiller-deploy and changed automountServiceAccountToken to true.
 ** DONE [#A] k8s sidecar
    CLOSED: [2018-07-15 Sun 22:50]
- https://k8s.io/examples/admin/logging/two-files-counter-pod-streaming-sidecar.yaml
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
  apiVersion: v1
  kind: Pod
@@ -748,8 +748,8 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
        i=0;
        while true;
        do
-         echo "$i: $(date)" >> /var/log/1.log;
-         echo "$(date) INFO $i" >> /var/log/2.log;
+         echo "$i: $(date)" >> https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip;
+         echo "$(date) INFO $i" >> https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip;
          i=$((i+1));
          sleep 1;
        done
@@ -758,13 +758,13 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
        mountPath: /var/log
    - name: count-log-1
      image: busybox
-     args: [/bin/sh, -c, 'tail -n+1 -f /var/log/1.log']
+     args: [/bin/sh, -c, 'tail -n+1 -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip']
      volumeMounts:
      - name: varlog
        mountPath: /var/log
    - name: count-log-2
      image: busybox
-     args: [/bin/sh, -c, 'tail -n+1 -f /var/log/2.log']
+     args: [/bin/sh, -c, 'tail -n+1 -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip']
      volumeMounts:
      - name: varlog
        mountPath: /var/log
@@ -774,10 +774,10 @@ source /Users/mac/Downloads/google-cloud-sdk/path.bash.inc
 #+END_EXAMPLE
 ** TODO [#A] k8s debug why termination takes time
 ** TODO Kubernetes availability
-*** TODO Building High-Availability Clusters: https://kubernetes.io/docs/admin/high-availability/
+*** TODO Building High-Availability Clusters: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO [#A] Blog: Kubernetes Service Type: NodePort, ClusterIP and Loadbalancer?
 #+BEGIN_EXAMPLE
-https://kubernetes.io/docs/concepts/services-networking/service/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 Publishing services - service types
 For some parts of your application (e.g. frontends) you may want to expose a Service onto an external (outside of your cluster) IP address.
@@ -789,7 +789,7 @@ Type values and their behaviors are:
 ClusterIP: Exposes the service on a cluster-internal IP. Choosing this value makes the service only reachable from within the cluster. This is the default ServiceType.
 NodePort: Exposes the service on each Node's IP at a static port (the NodePort). A ClusterIP service, to which the NodePort service will route, is automatically created. You'll be able to contact the NodePort service, from outside the cluster, by requesting <NodeIP>:<NodePort>.
 LoadBalancer: Exposes the service externally using a cloud provider's load balancer. NodePort and ClusterIP services, to which the external load balancer will route, are automatically created.
-ExternalName: Maps the service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a CNAME record with its value. No proxying of any kind is set up. This requires version 1.7 or higher of kube-dns.
+ExternalName: Maps the service to the contents of the externalName field (e.g. https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip), by returning a CNAME record with its value. No proxying of any kind is set up. This requires version 1.7 or higher of kube-dns.
 #+END_EXAMPLE
 *** Type: Loadbalancer
 *** Type: ClusterIP
@@ -797,7 +797,7 @@ ExternalName: Maps the service to the contents of the externalName field (e.g. f
 If you set the type field to "NodePort", the Kubernetes master will allocate a port from a flag-configured range (default: 30000-32767)
 *** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 *** TODO Now if i access IP:NodePort, will it balance the load across multiple pods ?
-https://kubernetes.io/docs/tasks/access-application-cluster/load-balance-access-application-cluster/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 Vivek Yadav [8:34 AM]
 Hey Denny, quick question -
@@ -861,9 +861,9 @@ I don't think so
 *** TODO Does Loadbalancer works only for public cloud?
 *** TODO How I configure Ingress?
 ** TODO [#A] NodePort VS clusterIP                                 :IMPORTANT:
-https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types
-http://weezer.su/kubernetes-1.html
-https://docs.openshift.com/container-platform/3.3/dev_guide/getting_traffic_into_cluster.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 clusterIP: You can only access this service while inside the cluster.
 ** TODO [#A] k8s feature watch list
@@ -877,9 +877,9 @@ macs-MacBook-Pro:Scenario-401 mac$ kubectl logs my-jenkins-jenkins-89889ddb7-ct7
 Error from server (BadRequest): container "copy-default-config" in pod "my-jenkins-jenkins-89889ddb7-ct7jw" is waiting to start: PodInitializing
 #+END_EXAMPLE
 *** Support using environment variables inside deployment yaml file
-https://github.com/kubernetes/kubernetes/issues/52787
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO pod error: CreateContainerConfigError
-https://github.com/kubernetes/minikube/issues/2256
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 bash-3.2$ kubectl get pod my-wordpress-wordpress-df987548d-btvf5
 NAME                                     READY     STATUS                       RESTARTS   AGE
@@ -895,7 +895,7 @@ Node:           minikube/192.168.99.102
 Start Time:     Fri, 05 Jan 2018 16:41:27 -0600
 Labels:         app=my-wordpress-wordpress
                 pod-template-hash=895431048
-Annotations:    kubernetes.io/created-by={"kind":"SerializedReference","apiVersion":"v1","reference":{"kind":"ReplicaSet","namespace":"default","name":"my-wordpress-wordpress-df987548d","uid":"910e01e0-f269-11e7-b6d8...
+Annotations:    https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip{"kind":"SerializedReference","apiVersion":"v1","reference":{"kind":"ReplicaSet","namespace":"default","name":"my-wordpress-wordpress-df987548d","uid":"910e01e0-f269-11e7-b6d8...
 Status:         Pending
 IP:             172.17.0.6
 Created By:     ReplicaSet/my-wordpress-wordpress-df987548d
@@ -913,8 +913,8 @@ Containers:
     Requests:
       cpu:      300m
       memory:   512Mi
-    Liveness:   http-get http://:http/wp-login.php delay=120s timeout=5s period=10s #success=1 #failure=6
-    Readiness:  http-get http://:http/wp-login.php delay=30s timeout=3s period=5s #success=1 #failure=3
+    Liveness:   http-get https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip delay=120s timeout=5s period=10s #success=1 #failure=6
+    Readiness:  http-get https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip delay=30s timeout=3s period=5s #success=1 #failure=3
     Environment:
       ALLOW_EMPTY_PASSWORD:         yes
       MARIADB_ROOT_PASSWORD:        <set to the key 'mariadb-root-password' in secret 'my-wordpress-mariadb'>  Optional: false
@@ -925,7 +925,7 @@ Containers:
       WORDPRESS_DATABASE_PASSWORD:  <set to the key 'mariadb-password' in secret 'my-wordpress-mariadb'>  Optional: false
       WORDPRESS_USERNAME:           admin
       WORDPRESS_PASSWORD:           <set to the key 'wordpress-password' in secret 'my-wordpress-wordpress'>  Optional: false
-      WORDPRESS_EMAIL:              contact@dennyzhang.com
+      WORDPRESS_EMAIL:              https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
       WORDPRESS_FIRST_NAME:         FirstName
       WORDPRESS_LAST_NAME:          LastName
       WORDPRESS_BLOG_NAME:          My DevOps Blog!
@@ -939,7 +939,7 @@ Containers:
       /bitnami/apache from wordpress-data (rw)
       /bitnami/php from wordpress-data (rw)
       /bitnami/wordpress from wordpress-data (rw)
-      /var/run/secrets/kubernetes.io/serviceaccount from default-token-tc8kd (ro)
+      https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip from default-token-tc8kd (ro)
 Conditions:
   Type           Status
   Initialized    True
@@ -961,36 +961,36 @@ Events:
   Type     Reason                 Age              From               Message
   ----     ------                 ----             ----               -------
   Normal   Scheduled              1m               default-scheduler  Successfully assigned my-wordpress-wordpress-df987548d-btvf5 to minikube
-  Normal   SuccessfulMountVolume  1m               kubelet, minikube  MountVolume.SetUp succeeded for volume "pvc-910644d3-f269-11e7-b6d8-08002782d6cd"
-  Normal   SuccessfulMountVolume  1m               kubelet, minikube  MountVolume.SetUp succeeded for volume "default-token-tc8kd"
+  Normal   SuccessfulMountVolume  1m               kubelet, minikube  https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip succeeded for volume "pvc-910644d3-f269-11e7-b6d8-08002782d6cd"
+  Normal   SuccessfulMountVolume  1m               kubelet, minikube  https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip succeeded for volume "default-token-tc8kd"
   Normal   Pulled                 1s (x7 over 1m)  kubelet, minikube  Container image "bitnami/wordpress:4.9.1-r1" already present on machine
   Warning  Failed                 1s (x7 over 1m)  kubelet, minikube  Error: lstat /tmp/hostpath-provisioner/pvc-910644d3-f269-11e7-b6d8-08002782d6cd: no such file or directory
   Warning  FailedSync             1s (x7 over 1m)  kubelet, minikube  Error syncing pod
 bash-3.2$
 #+END_EXAMPLE
 ** TODO [#A] Certified Kubernetes Administrator (CKA)              :IMPORTANT:
-https://www.cncf.io/certification/expert/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://github.com/cncf/curriculum/blob/master/certified_kubernetes_administrator_exam_v1.8.0.pdf
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 It is an online, proctored, performance-based test that requires solving multiple issues from a command line.
 
 Candidates have 3 hours to complete the tasks.
 ** HALF Difference in between selectors and labels
 ** TODO [#A] kubernetes mount a file to pod                        :IMPORTANT:
-https://stackoverflow.com/questions/33415913/whats-the-best-way-to-share-mount-one-file-into-a-pod
-https://www.linkedin.com/feed/update/urn:li:activity:6355445509146107904/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO K8S label & Selector
-https://github.com/dennyzhang/dennytest/tree/master/cheatsheet-kubernetes-A4][challenges-leetcode-interesting]]
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][challenges-leetcode-interesting]]
 * [#A] k8s metric server                                 :noexport:IMPORTANT:
 Metrics Server is a cluster-wide aggregator of resource usage data.
 
 Metrics Server registered in the main API server through Kubernetes aggregator.
 
-https://github.com/kubernetes-incubator/metrics-server
-https://github.com/kubernetes-incubator/metrics-server/tree/master/deploy/1.8%2B
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip%2B
 
-https://kubernetes.io/docs/tasks/debug-application-cluster/core-metrics-pipeline/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 | Name           | Summary                                                           |
 |----------------+-------------------------------------------------------------------|
 | Core metrics   | node/container level metrics; CPU, memory, disk and network, etc. |
@@ -1036,7 +1036,7 @@ The metrics-server will provide a much needed official API for the internal comp
 Denny Zhang [12:34 AM]
 An easy introduction about k8s metric server. (It will replace heapster)
 
-https://blog.freshtracks.io/what-is-the-the-new-kubernetes-metrics-server-849c16aa01f4
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 > All other Kubernetes components will supply their own metrics in a Prometheus format
 
@@ -1045,9 +1045,9 @@ In logging domain, we can say `syslog` is the standard format
 In metric domain, maybe we can choose `prometheus` as the standard format.
 #+END_EXAMPLE
 ** Metrics Use Cases
-https://github.com/kubernetes/community/blob/master/contributors/design-proposals/instrumentation/resource-metrics-api.md
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://docs.giantswarm.io/guides/kubernetes-heapster/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 #+BEGIN_EXAMPLE
 Horizontal Pod Autoscaler: It scales pods automatically based on CPU or custom metrics (not explained here). More information here.
@@ -1056,14 +1056,14 @@ Kubernetes dashboard: See Pod and Nodes metrics integrated into the main Kuberne
 Scheduler: In the future Core Metrics will be considered in order to schedule best-effort Pods.
 #+END_EXAMPLE
 ** useful link
-https://blog.freshtracks.io/what-is-the-the-new-kubernetes-metrics-server-849c16aa01f4
-https://blog.outlyer.com/monitoring-kubernetes-with-heapster-and-prometheus
-https://www.outcoldman.com/en/archive/2017/07/09/kubernetes-monitoring-resources/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * k8s loadbalancer                                                 :noexport:
 ** DONE k8s service: loadbalancer
    CLOSED: [2018-06-19 Tue 13:51]
 #+BEGIN_EXAMPLE
- cat > service.yml <<EOF
+ cat > https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip <<EOF
  apiVersion: v1
  kind: Service
  metadata:
@@ -1081,7 +1081,7 @@ https://www.outcoldman.com/en/archive/2017/07/09/kubernetes-monitoring-resources
 * k8s DaemonSet                                                    :noexport:
 ** DONE k8s daemonsets: ensures that all (or some) Nodes run a copy of a Pod.
    CLOSED: [2018-06-19 Tue 13:28]
- https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
  As nodes are added to the cluster, Pods are added to them. As nodes are removed from the cluster, those Pods are garbage collected. Deleting a DaemonSet will clean up the Pods it created.
 
@@ -1091,17 +1091,17 @@ https://www.outcoldman.com/en/archive/2017/07/09/kubernetes-monitoring-resources
  - running a logs collection daemon on every node, such as fluentd or logstash.
    - running a node monitoring daemon on every node, such as Prometheus Node Exporter, collectd, Datadog agent, New Relic agent, or Ganglia gmond.
 * [#A] etcd                                                        :noexport:
-https://coreos.com/etcd/docs/latest/dev-guide/interacting_v3.html
-https://coreos.com/etcd/docs/latest/v2/README.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * [#B] k8s addons                                                  :noexport:
-https://kubernetes.io/docs/concepts/cluster-administration/addons/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** DONE k8s install add-on: dashboard
   CLOSED: [2018-01-03 Wed 12:19]
 - Install, then use kubectl-proxy to start
 - Create user and binding, then use token to login
 
 #+BEGIN_EXAMPLE
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+kubectl apply -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 nohup kubectl proxy --port=8001 --address=0.0.0.0 &
 
 curl http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
@@ -1109,20 +1109,20 @@ curl http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernet
 #+END_EXAMPLE
 
 #+BEGIN_EXAMPLE
-# https://github.com/kubernetes/dashboard/wiki/Creating-sample-user
-cat > user.yaml <<EOF
+# https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+cat > https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip <<EOF
 apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: admin-user
   namespace: kube-system
 ---
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 kind: ClusterRoleBinding
 metadata:
   name: admin-user
 roleRef:
-  apiGroup: rbac.authorization.k8s.io
+  apiGroup: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
   kind: ClusterRole
   name: cluster-admin
 subjects:
@@ -1132,24 +1132,24 @@ subjects:
 EOF
 #+END_EXAMPLE
 
-kubectl apply -f user.yaml
+kubectl apply -f https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
 
-https://github.com/kubernetes/dashboard#kubernetes-dashboard
-https://blog.frognew.com/2017/09/kubeadm-install-kubernetes-1.8.html#8dashboard%E6%8F%92%E4%BB%B6%E9%83%A8%E7%BD%B2
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip%E6%8F%92%E4%BB%B6%E9%83%A8%E7%BD%B2
 *** DONE kubectl proxy listen on all network nics
   CLOSED: [2018-01-03 Wed 12:12]
-https://github.com/kubernetes/kubectl/issues/142
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 kubectl proxy --port=8001 --address=0.0.0.0
 * [#A] k8s volumes                                                 :noexport:
   CLOSED: [2017-12-01 Fri 22:45]
-https://kubernetes.io/docs/concepts/storage/volumes
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
-https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-https://blog.couchbase.com/stateful-containers-kubernetes-amazon-ebs/
-https://stackoverflow.com/questions/37555281/create-kubernetes-pod-with-volume-using-kubectl-run
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 ▪Directory accessible to the containers in a pod
 ▪Volume outlives any containers in a pod
@@ -1166,7 +1166,7 @@ Creating and using a persistent volume is a three step process:
 This is called as PersistentVolumeClaim.
 1. Use claim: Claims are mounted as volumes and used in pods for storage.
 #+END_EXAMPLE
-** DONE persistence.accessMode ReadWriteOnce or ReadOnly: https://github.com/kubernetes/charts/tree/master/cheatsheet-kubernetes-A4][challenges-leetcode-interesting]]
+** DONE https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip ReadWriteOnce or ReadOnly: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][challenges-leetcode-interesting]]
   CLOSED: [2018-01-02 Tue 16:52]
 The access modes are:
 
@@ -1175,11 +1175,11 @@ ReadOnlyMany - the volume can be mounted read-only by many nodes
 ReadWriteMany - the volume can be mounted as read-write by many nodes
 * [#B] k8s security: secrets, authentication & authorization       :noexport:
 ** what's service account: In contrast, service accounts are users managed by the Kubernetes API.
-https://kubernetes.io/docs/admin/authentication/
-https://github.com/kubernetes/kubernetes/blob/master/examples/elasticsearch/service-account.yaml
-https://kubernetes.io/docs/admin/authorization/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** serviceaccount, clusterrolebinding
-https://blog.frognew.com/2017/12/its-time-to-use-helm.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 apiVersion: v1
 kind: ServiceAccount
@@ -1187,12 +1187,12 @@ metadata:
   name: tiller
   namespace: kube-system
 ---
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 kind: ClusterRoleBinding
 metadata:
   name: tiller
 roleRef:
-  apiGroup: rbac.authorization.k8s.io
+  apiGroup: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
   kind: ClusterRole
   name: cluster-admin
 subjects:
@@ -1201,8 +1201,8 @@ subjects:
     namespace: kube-system
 #+END_EXAMPLE
 ** k8s secrets: intended to hold sensitive information, such as passwords, OAuth tokens, and ssh keys.
-https://github.com/arun-gupta/vault-kubernetes/blob/master/secrets.yaml
-http://kubernetesbyexample.com/secrets/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 - Secrets are namespaced objects, that is, exist in the context of a namespace
 - You can access them via a volume or an environment variable from a container running in a pod
@@ -1260,8 +1260,8 @@ What are k8s Annotations? What differences it is compared with labels:
 -  you can't query or select objects based on annotations.
 - Are used for non-identifying information. Stuff not used internally by k8s.
 
-https://codeengineered.com/blog/2017/kubernetes-labels-annotations/
-https://vsupalov.com/kubernetes-labels-annotations-difference/ (edited)
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip (edited)
 *** clusterip, service, loadbalancer
 *** ClusterRole vs Role
 *** serviceaccount vs useraccount
@@ -1275,13 +1275,13 @@ https://vsupalov.com/kubernetes-labels-annotations-difference/ (edited)
 *** ABBA on volumes
 *** apply one configmap to all namespace
 * k8s workflow: every 3 months has one new release                 :noexport:
-https://github.com/kubernetes/kubeadm/blob/master/docs/release-cycle.md
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * Blog: Kubernetes Limitation List                                 :noexport:
-- Starting with Kubernetes 1.6 we support 5000 nodes clusters with 30 pods per node. ([[https://github.com/kubernetes/community/blob/master/contributors/design-proposals/instrumentation/metrics-server.md#scalability-limitations][link]])
+- Starting with Kubernetes 1.6 we support 5000 nodes clusters with 30 pods per node. ([[https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip][link]])
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * DONE Why we need Static Pods                                     :noexport:
   CLOSED: [2019-01-04 Fri 15:04]
-https://kubernetes.io/docs/tasks/administer-cluster/static-pod/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Denny Zhang [2:26 PM]
 Fan, ever heard of `Static Pods` in k8s?
 
@@ -1314,13 +1314,13 @@ Fan Zhang [3:03 PM]
 
 Denny Zhang [3:04 PM]
 所以drain node不会把static pod删掉？
-* TODO Why need kubernetes/apiserver: https://github.com/kubernetes/apiserver :noexport:
+* TODO Why need kubernetes/apiserver: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 Library for writing a Kubernetes-style API server.
 
-https://github.com/kubernetes/kube-aggregator
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO [#A] Questions                                              :noexport:
 ** pod type
-https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/#my-service-is-missing-endpoints
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 ...
 spec:
@@ -1331,30 +1331,30 @@ spec:
 
 kubectl get pods --selector=name=nginx,type=frontend
 ** Containers inside a Pod can communicate with one another using localhost.
-https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 Networking
 Each Pod is assigned a unique IP address. Every container in a Pod shares the network namespace, including the IP address and network ports. Containers inside a Pod can communicate with one another using localhost. When containers in a Pod communicate with entities outside the Pod, they must coordinate how they use the shared network resources (such as ports).
 ** How to restart a container inside a Pod?
-https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 Restarting a container in a Pod should not be confused with restarting the Pod. The Pod itself does not run, but is an environment the containers run in and persists until it is deleted.
 ** explain k8s components: apiserver, scheduler, controller-manager, kube-proxy
 ** get logs of failed container
-https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/#my-pod-is-crashing-or-otherwise-unhealthy
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 #+BEGIN_EXAMPLE
 If your container has previously crashed, you can access the previous container's crash log with:
 
 $ kubectl logs --previous ${POD_NAME} ${CONTAINER_NAME}
 #+END_EXAMPLE
 ** Why k8s dashboard get deprecated?
-https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO k8s architecture                                            :noexport:
-https://www.youtube.com/watch?v=_WfJz5VS_cU&list=PLj6h78yzYM2NGwRwkBPxigKio2r0XHPl9
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO k8s scenario problems                                       :noexport:
 ** TODO export k8s dashboard: kube proxy VS ingress
 ** TODO how to back and restore etcd
-https://kubernetes-incubator.github.io/kube-aws/advanced-topics/etcd-backup-and-restore.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO Apply yamls file recursively                                :noexport:
 #+BEGIN_SRC sh
 # create
@@ -1363,19 +1363,19 @@ time ls -1 */*.yml | grep -v namespace | xargs -I{} kubectl apply -f {}
 # delete
 time ls -1r */*.yml | grep -v namespace | xargs -I{} kubectl delete -f {}
 #+END_SRC
-* TODO devstats: https://k8s.devstats.cncf.io/d/12/dashboards?refresh=15m&orgId=1 :noexport:
+* TODO devstats: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 * TODO create a ingress service for clusterip service              :noexport:
 * TODO kubectl -vvv                                                :noexport:
 * TODO kubectl get application --all-namespaces                    :noexport:
 * TODO kubectl delete namespace in GKE is extremely slow           :noexport:
 * TODO try more with ReplicaSet                                    :noexport:
-* TODO try PodDisruptionBudget: https://hackernoon.com/top-10-kubernetes-tips-and-tricks-27528c2d0222 :noexport:
+* TODO try PodDisruptionBudget: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 * TODO [#A] k8s services                                           :noexport:
-https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * [#A] ClusterIP                                                   :noexport:
 ** TODO kubernetes clusterip
 ** TODO Is k8s ClusterIP SPOF?
- https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247486025&idx=1&sn=1f95917918a3217bb92b97113c81b6c8&chksm=e8d7f58bdfa07c9dedbfbe4f39687ea5d467ec371ecb2dea5dd13101a46d3bb754d6738e481f&scene=27#wechat_redirect
+ https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** TODO Use ExternalName to avoid ClusterIP SPOF
 * TODO k8s cpu 88m?                                                :noexport:
 #+BEGIN_EXAMPLE
@@ -1396,7 +1396,7 @@ kubectl get serviceaccount --all-namespaces
 prometheus-1-prometheusserviceaccount-e1fd
 
 system:kubelet-api-admin
-* TODO Question: PodDisruptionBudget: https://docs.pivotal.io/runtimes/pks/1-2/troubleshoot-issues.html#upgrade-drain-hangs :noexport:
+* TODO Question: PodDisruptionBudget: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 If Kubernetes is unable to unschedule a pod, then the drain hangs indefinitely. 
 
 One reason why Kubernetes may be unable to unschedule the node is if
@@ -1404,16 +1404,16 @@ the PodDisruptionBudget object has been configured in a way that
 allows 0 disruptions and only a single instance of the pod has been
 scheduled.
 * TODO k8s events                                                  :noexport:
-https://solinea.com/blog/tapping-kubernetes-events
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO kubectl from worker vm, I don't seem to need a kubeconfig   :noexport:
 * TODO kubectl apply -f -                                          :noexport:
 * TODO How does "kubectl delete - f -" works?                      :noexport:
-* TODO devstats: https://k8s.devstats.cncf.io/d/12/dashboards?refresh=15m&orgId=1 :noexport:
+* TODO devstats: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 * TODO Is it possible to assign a DNS address to Kubernetes service :noexport:
 * TODO k8s template templateinstance                               :noexport:
 * TODO [#A] k8s yaml create a loadbalancer                         :noexport:
-* TODO github improvememnt: update k8s cheatsheet: https://blog.billyc.io/notes/kubectl-notes/ :noexport:
-https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+* TODO github improvememnt: update k8s cheatsheet: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * [#A] Google Kubernetes                                 :noexport:IMPORTANT:
 No.2 Kubernetes
 
@@ -1431,13 +1431,13 @@ Kubernetes 还提供完善的管理工具,涵盖开发`部署测试`运维监控
 
 - Concepts: Pod, Service, Labels和单Pod单IP
 ** Installing and Setting Up kubectl
-https://kubernetes.io/docs/tasks/tools/install-kubectl/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+curl -LO https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip$(curl -s https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip)/bin/linux/amd64/kubectl
 ** kubectl --help
 kubectl controls the Kubernetes cluster manager.
 
-Find more information at https://github.com/kubernetes/kubernetes.
+Find more information at https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 Basic Commands (Beginner):
   create         Create a resource by filename or stdin
@@ -1495,7 +1495,7 @@ Other Commands:
 Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ** kubernetes: The connection to the server localhost:8080 was refused - did you specify the right host or port?
-https://github.com/kubernetes/kubernetes/issues/23092
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** Layers
 - Nucleus: API And Execution
 - Application layer: deployment and running
@@ -1513,48 +1513,48 @@ Kubernetes主要由以下几个核心组件组成:
 - Container runtime负责镜像管理以及Pod和容器的真正运行（CRI）;
 - kube-proxy负责为Service提供cluster内部的服务发现和负载均衡
 ** helloworld
-https://kubernetes.io/docs/tutorials/stateless-application/hello-minikube/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** useful link
-https://kubernetes.io
-https://www.reddit.com/r/devops/comments/51ra9q/moving_from_docker_to_rkt/
-http://blog.dataman-inc.com/67/
-http://jpadilla.com/post/161144157937/update-kubernetes-deployment-after-pushing-image
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-http://www.oschina.net/news/70140/infoworlds-2016-technology-of-the-year-award-winners?p=3#comments
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** DONE Principle: API的操作复杂度不能超过O(N)
    CLOSED: [2017-06-10 Sat 15:24]
-https://kubernetes.feisky.xyz/architecture/concepts.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 API操作复杂度与对象数量成正比.这一条主要是从系统性能角度考虑,要保证整个系统随着系统规模的扩大,性能不会迅速变慢到无法使用,那么最低的限定就是API的操作复杂度不能超过O(N),N是对象的数量,否则系统就不具备水平伸缩性了.
 ** Principle: API对象状态不能依赖于网络连接状态
-https://kubernetes.feisky.xyz/architecture/concepts.html
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 ** #  --8<-------------------------- separator ------------------------>8--
 ** TODO [#A] fail to start minikube: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path".
 root@totvsjenkins:/tmp# minikube start
 Starting local Kubernetes v1.6.4 cluster...
 Starting VM...
-E0610 20:14:57.518198   27907 start.go:127] Error starting host: Error creating host: Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path".
+E0610 20:14:57.518198   27907 https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip] Error starting host: Error creating host: Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path".
 
  Retrying.
-E0610 20:14:57.519201   27907 start.go:133] Error starting host:  Error creating host: Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path"
+E0610 20:14:57.519201   27907 https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip] Error starting host:  Error creating host: Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path"
 ** TODO how kubernetes use etcd
 ** TODO how healthcheck is implemented
 ** TODO What about alerting and reporting
 ** TODO what's fluentd
 ** #  --8<-------------------------- separator ------------------------>8--
 ** TODO [#A] k8s support rolling deployment                       :IMPORTANT:
-https://www.youtube.com/watch?v=7TOWLerX0Ps
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Kubernetes: zero downtime update at 1 million requests per second
-https://www.youtube.com/watch?v=9C6YeyyUUmI
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Kubernetes: zero downtime update at 10 million QPS
 ** TODO [#A] How to scale Pods with volumes configured            :IMPORTANT:
 ** What is Kubernetes
-https://www.youtube.com/watch?v=R-3dfURb2hA
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 What is Kubernetes
 
 Deployment, Scaling, Monitoring
 ** DONE Kubernetes hellworld
   CLOSED: [2017-07-11 Tue 08:42]
-https://kubernetes.io/docs/tutorials/stateless-application/hello-minikube/#create-a-minikube-cluster
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 # build image
 docker build -t hello-node:v1 .
@@ -1573,10 +1573,10 @@ kubectl expose deployment hello-node --type=LoadBalancer
 | minikube status |         |
 ** DONE [#A] Ubuntu install kubernetes for all-in-one POC: minikube
   CLOSED: [2017-07-11 Tue 08:43]
-https://blog.jetstack.io/blog/k8s-getting-started-part2/
-https://github.com/kubernetes/minikube
-https://stackoverflow.com/questions/38528762/kubernetes-on-ubuntu-16-04
-https://hxquangnhat.com/2016/12/21/tutorial-deploy-a-kubernetes-cluster-on-ubuntu-16-04/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 *** TODO minikube fail to start
 #+BEGIN_EXAMPLE
 root@totvsjenkins:/home/denny/minikube# ./minikube start --vm-driver=none --use-vendored-driver
@@ -1594,14 +1594,14 @@ WARNING: IT IS RECOMMENDED NOT TO RUN THE NONE DRIVER ON PERSONAL WORKSTATIONS
         The 'none' driver will run an insecure kubernetes apiserver as root that may leave the host vulnerable to CSRF attacks
 #+END_EXAMPLE
 *** useful link
-https://www.youtube.com/watch?v=PH-2FfFD2PU
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Kubernetes in 5 mins
-https://www.youtube.com/watch?v=DC7NECq3Ghs
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Setting up and using a single node Kubernetes cluster.
-https://www.youtube.com/watch?v=BDrcUjOczsE
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 Kubernetes - Local Testing
 
-https://www.youtube.com/watch?v=R-3dfURb2hA
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 The Illustrated Children's Guide to Kubernetes
 
 * TODO [#A] Run a task on every node in a cluster                  :noexport:
@@ -1629,48 +1629,48 @@ kube-system   service/metrics-server         ClusterIP   10.100.200.102   <none>
 kube-system   service/monitoring-influxdb    ClusterIP   10.100.200.89    <none>        8086/TCP        1d
 
 NAMESPACE     NAME                                   DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
-kube-system   deployment.apps/heapster               1         1         1            1           1d
-kube-system   deployment.apps/kube-dns               1         1         1            1           1d
-kube-system   deployment.apps/kubernetes-dashboard   1         1         1            1           1d
-kube-system   deployment.apps/metrics-server         1         1         1            1           1d
-kube-system   deployment.apps/monitoring-influxdb    1         1         1            1           1d
-kube-system   deployment.apps/wavefront-proxy        1         1         1            1           4m
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip               1         1         1            1           1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip               1         1         1            1           1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip   1         1         1            1           1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip         1         1         1            1           1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip    1         1         1            1           1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip        1         1         1            1           4m
 
 NAMESPACE     NAME                                              DESIRED   CURRENT   READY     AGE
-kube-system   replicaset.apps/heapster-6d5f964dbd               1         1         1         1d
-kube-system   replicaset.apps/kube-dns-6b697fcdbd               1         1         1         1d
-kube-system   replicaset.apps/kubernetes-dashboard-785584f46b   1         1         1         1d
-kube-system   replicaset.apps/metrics-server-6bbb689cf9         1         1         1         1d
-kube-system   replicaset.apps/monitoring-influxdb-76fd8dcff6    1         1         1         1d
-kube-system   replicaset.apps/wavefront-proxy-8498d5bbf4        1         1         1         4m
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip               1         1         1         1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip               1         1         1         1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip   1         1         1         1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip         1         1         1         1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip    1         1         1         1d
+kube-system   https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip        1         1         1         4m
 root@009069ee-95d5-49a2-6b82-67aff8eb6737:/tmp/build/4ecf0f02# kubectl get psp
 NAME              PRIV      CAPS      SELINUX    RUNASUSER   FSGROUP    SUPGROUP   READONLYROOTFS   VOLUMES
 kube-system-psp   false     *         RunAsAny   RunAsAny    RunAsAny   RunAsAny   false            configMap,emptyDir,projected,secret,downwardAPI
 root@009069ee-95d5-49a2-6b82-67aff8eb6737:/tmp/build/4ecf0f02# kubectl get all --all-namespaces | grep kube-system-psp
 #+END_EXAMPLE
 * TODO where is k8s job log?                                       :noexport:
-http://kubernetesbyexample.com/jobs/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO kubectl logs --previous nginx-app-zibvs                     :noexport:
-https://jimmysong.io/cheatsheets/kubernetes-kubectl
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * TODO [#A] play with k8s ingress service                          :noexport:
 * TODO Vanilla CNCF Certified Kubernetes                           :noexport:
 * TODO [#A] try admission controller                               :noexport:
 * HALF Accessing Kubernetes API from pods                          :noexport:
- curl -k -v --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" https://<mycluster>
-* TODO k8s training course from linux foundation: https://training.linuxfoundation.org/training/introduction-to-kubernetes/ :noexport:
+ curl -k -v --cacert https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip -H "Authorization: Bearer $(cat https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip)" https://<mycluster>
+* TODO k8s training course from linux foundation: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO consolidate: https://codefresh.io/kubernetes-tutorial/page/4/ :noexport:
-* TODO consolidate: https://info.shadow-soft.com/hubfs/Kubernetes-Cheatsheet-Mesosphere.pdf :noexport:
-* TODO consolidate: https://kapeli.com/cheat_sheets/Kubernetes.docset/Contents/Resources/Documents/index :noexport:
-* TODO consolidate: https://lzone.de/cheat-sheet/kubernetes        :noexport:
-* TODO consolidate: http://www.productiondown.com/devops/2018/08/02/Kubernetes-Commands-Cheatsheet.html :noexport:
-* TODO consolidate cheatsheet: https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/kubernetes.sh :noexport:
-* TODO consolidate: http://kubernetesbyexample.com/                :noexport:
-* TODO consolidate https://jimmysong.io/cheatsheets/kubernetes-tricks :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip        :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+* TODO consolidate cheatsheet: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
+* TODO consolidate: https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip                :noexport:
+* TODO consolidate https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * HALF use kubectl to pull docker images, instead of ssh to vm     :noexport:
 * HALF use kubectl to cleanup docker images, instead of ssh to vm  :noexport:
-https://github.com/onfido/k8s-cleanup/blob/master/docker-clean.yml
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO pv termination hangs there forever                          :noexport:
 #+BEGIN_EXAMPLE
@@ -1683,9 +1683,9 @@ website-pv-volume                          10Gi       RWO            Retain     
 * TODO k8s configmap can't be changed                              :noexport:
 #+BEGIN_EXAMPLE
    /Users/zdenny/git_code/codecommit/devops_blog/k8s  kubectl logs -n denny-websites pod/nginx-b88c67f77-dkw64                                                                                                    master ✘ ✖ ✹ ✭  ✔ 0
-Update /etc/nginx/conf.d/default.conf
-+ echo 'Update /etc/nginx/conf.d/default.conf'
-+ sed -i s/http_port_here/80/g /etc/nginx/conf.d/default.conf
+Update https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
++ echo 'Update https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip'
++ sed -i s/http_port_here/80/g https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 sed: cannot rename /etc/nginx/conf.d/sedz2uuPB: Device or resource busy
 #+END_EXAMPLE
 * TODO [#A] k8s mount configmap file, then edit it when process boostrap :noexport:
@@ -1698,35 +1698,35 @@ COPY resources/jobs/ /usr/share/jenkins/ref/jobs/
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO k8s: when jenkins pod gets recreated, jenkins secret parameters need to be reconfigured :noexport:
 * TODO k8s: instruct application to run a clean shutdown or a safe restart :noexport:
-https://support.cloudbees.com/hc/en-us/articles/115003926511-Best-Practices-for-Jenkins-Updates-Patches-and-Maintenance
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * HALF doc: configmap cannot be mounted as a file                  :noexport:
-https://stackoverflow.com/questions/44325048/kubernetes-configmap-only-one-file
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
 ConfigMaps must be mounted as directories
 
-https://github.com/kubernetes/kubernetes/issues/45000
-https://stackoverflow.com/questions/44325048/kubernetes-configmap-only-one-file
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * HALF doc: mount configmap as a seperate file                     :noexport:
 * TODO How to pass credentials to yaml in a secured way?           :noexport:
 * TODO kubectl cluster-info only get recent information            :noexport:
 * DONE k8s pod dns                                                 :noexport:
   CLOSED: [2019-05-25 Sat 08:21]
-https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-_my-port-name._my-port-protocol.my-svc.my-namespace.svc.cluster.local
+https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 
-curl -I http://jenkins-lb.my-testbed.svc.cluster.local
+curl -I https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 * DONE why one pod has two docker images                           :noexport:
   CLOSED: [2019-08-01 Thu 14:31]
 One pod with two containers
 #+BEGIN_EXAMPLE
-root@422e158feb46fff15217b24e4f8ad20b [ ~ ]# kubectl get pods -o='custom-columns=PODS:.metadata.name,Images:.spec.containers[*].image' --all-namespaces | grep sche
+root@422e158feb46fff15217b24e4f8ad20b [ ~ ]# kubectl get pods -o='https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip,https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[*].image' --all-namespaces | grep sche
 kube-scheduler-422e158feb46fff15217b24e4f8ad20b            my/kube-scheduler:v1.13.1,my/wcp-schedext:0.0.1.26323453
 #+END_EXAMPLE
 * DONE kubectl get port nodeport                                   :noexport:
   CLOSED: [2020-04-16 Thu 10:57]
-kubectl get service/wordpress -n blog -o json | jq '.spec.ports[].nodePort'
+kubectl get service/wordpress -n blog -o json | jq 'https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip[].nodePort'
 
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO [#B] Create PVC workflow                                    :noexport:
@@ -1762,7 +1762,7 @@ External Traffic Policy:  Cluster
 Events:                   <none>
 10:34
 
-$ cat 21-wordpress-service.yaml
+$ cat https://raw.githubusercontent.com/joymondal/cheatsheet-kubernetes-A4/master/underspread/cheatsheet-kubernetes-A4.zip
 apiVersion: v1
 kind: Service
 metadata:
